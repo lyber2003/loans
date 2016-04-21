@@ -9,11 +9,10 @@ public $base = "";
 public $username = "";
 public $userid = "";
 
+function render(){
 
-	function render(){
 	eval(file_get_contents(__FILE__,null,null,__COMPILER_HALT_OFFSET__));
-	
-	
+
 }}
 
 //database logic goes here
@@ -148,8 +147,8 @@ tr:nth-of-type(5) td:nth-of-type(1) {
     height: 824px;
     border: 0px solid #73AD21;
     padding: 0px;
-    font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
-    font-size: 250%; /* Размер шрифта в процентах */ 
+    font-family: 'Times New Roman', Times, serif; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */ 
+    font-size: 250%; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */ 
 }
 #image {
      position: relative;
